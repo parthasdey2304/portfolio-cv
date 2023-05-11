@@ -12,16 +12,16 @@
 </head>
 <body class="bg-white dark:bg-gradient-to-r from-slate-900 to-zinc-950 font-mono dark:text-white">
     <div class="container w-full h-[790px] px-4 py-4 flex space-x-5 justify-between">
-        <div class="flex-col bg-white/20 space-y-4 rounded-2xl w-[30%] h-[769px] p-2">
-            <div class="p-2 relative">
-                <img src="static/img/profile.jpeg" alt="Partha Sarathi Dey image" class="border border-white rounded-2xl w-full">
+        <div class="flex-col border bg-white/20 space-y-4 rounded-2xl w-[30%] h-[769px] p-2 shadow-md dark:shadow-none">
+            <div class="px-2 py-3 relative">
+                <img src="static/img/profile.jpeg" alt="Partha Sarathi Dey image" class="border border-white rounded-2xl w-full shadow-md dark:shadow-none">
 
                 <div class="absolute top-36 -left-8 w-full h-full flex items-center justify-center">
-                    <p class="font-bold text-2xl shadow-2xl">Partha Sarathi Dey</p>
+                    <p class="font-bold text-2xl shadow-2xl text-white">Partha Sarathi Dey</p>
                 </div>
             </div>
            
-            <div class="flex-col space-y-4 mx-2 border rounded-2xl px-2 py-4 font-bold ">
+            <div class="flex-col space-y-4 mx-2 border rounded-2xl px-2 py-4 font-bold shadow-md dark:shadow-none">
                 <p>&#x1F4BC; Software Developer</p>
                 <p>&#x1F4CD; Kolkata, India</p>
                 <p class="px-1">&#x2709; parthasdeyofficial@gmail.com</p>
@@ -34,8 +34,13 @@
 
         </div>
 
-        <div class="flex-col bg-white/20 space-y-5 rounded-2xl w-[70%] h-[769px] p-8 font-mono">
-            <h1 class="text-5xl font-mono">Projects</h1>
+        <div class="flex-col border bg-white/20 space-y-5 rounded-2xl w-[70%] h-[769px] p-8 font-mono shadow-md dark:shadow-none">
+            <div class="flex justify-between">
+                <h1 class="text-5xl font-mono">Projects</h1>
+                <a class="bg-white border cursor-pointer rounded-[50%] flex justify-center w-11 h-11" href="https://github.com/parthasdey2304">
+                    <img src="static/img/github.png" alt="GitHub" class="w-10 h-10">
+                </a>
+            </div>
 
             <div class="flex-col space-y-5 w-full">
                 <div class="flex-col justify-start w-full">
@@ -96,12 +101,12 @@
         </div>
     </div>
     
-    <div class="footer bg-slate-800 flex-col space-y-5 justify-center h-[110px] w-full mt-10 py-2">
+    <div class="footer bg-slate-800 flex-col space-y-5 justify-center h-[110px] w-full mt-10 py-2 text-white">
         <div class="w-full flex justify-center mt-3">
             <h1 class="text-2xl font-mono font-bold">Find me on Social Media....</h1>
         </div>
 
-        <div class="w-full flex justify-center space-x-2">
+        <div class="w-full flex justify-center space-x-5 text-2xl">
             <i class="fa fa-facebook-official w3-hover-opacity cursor-pointer"></i>
             <i class="fa fa-instagram w3-hover-opacity cursor-pointer"></i>
             <i class="fa fa-snapchat w3-hover-opacity cursor-pointer"></i>
